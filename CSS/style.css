@@ -1,0 +1,23 @@
+body {
+    background-image: url(./../IMG/back-index2.gif);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: paleturquoise;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    border-radius: 50px;
+    border: solid rgb(34, 34, 34);
+    box-shadow: 0 0 20px 2px black;
+}
