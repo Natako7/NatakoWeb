@@ -27,8 +27,10 @@ let string = "texto";
 let number = 7;
 let boolean = true;
 boolean = false;
+let array = [1,2,3];
 
 // Ver tipo de valor con typeof()
 console.log(typeof("Badajoz")); // string
 console.log(typeof(777));       // number
 console.log(typeof(true));      // boolean
+console.log(typeof([1,2,3]));    // object (Arrays son un tipo especial de objetos)
