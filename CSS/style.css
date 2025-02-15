@@ -5,9 +5,8 @@ body {
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: 500px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation: move_back 30s linear infinite running;
-    font-family: Hentaigana;
+    font-family: "Noto Serif Hentaigana";
 }
 
 header {
@@ -21,16 +20,39 @@ main {
 }
 
 h1 {
-    font-size: 3.2vw;
+    font-size: 5vw;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 2.3vw;
+}
+
+.titleh3 {
+    background-color: rgba(0, 0, 0, 0.507);
+    border: solid 5px rgba(0, 255, 255, 0.493);
+    border-bottom: 0;
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0
+}
+
+.plang {
+    font-size: 1.4vw;
+    border: solid 2px turquoise;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+    padding: 2px;
+    width: 70%;
+    margin-top: 15px;
+    margin: auto;
 }
 
 #global {
@@ -65,30 +87,41 @@ h3 {
 }
 
 .lang-block-learned {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
+    display: flex;
     justify-content: center;
+    height: auto;
+    border: solid 4px rgba(0, 255, 255, 0.493);
+    border-radius: 100px;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .lang-block-learning {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr;
+    display: flex;
     justify-content: center;
+    height: auto;
+    border: solid 4px rgba(0, 255, 255, 0.493);
+    border-radius: 100px;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .lang {
-    width: 100%;
-    height: 300px;
+    width: 30%;
     font-size: 30px;
-    gap: 10%;
+    padding: 10px;
 }
 
 .icon {
     padding: 5px;
-    width: 80%;
-    height: 50%;
+    height: 7.5vw;
+    text-align: center;
 }
 
 .icon:hover {
@@ -107,7 +140,6 @@ h3 {
 
 @keyframes icon-up {
     0% {
-        padding: 5px;
         padding-bottom: 5px;
     }
 
