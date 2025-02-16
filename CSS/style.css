@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hentaigana:wght@500&display=swap');
 
+:root {
+    --colorBorde: rgba(0, 255, 255, 0.493);
+}
+
+
 body {
     background-image: url(./../IMG/back-index2.gif);
     background-repeat: repeat;
@@ -35,7 +40,7 @@ h3 {
 
 .titleh3 {
     background-color: rgba(0, 0, 0, 0.507);
-    border: solid 5px rgba(0, 255, 255, 0.493);
+    border: solid 5px var(--colorBorde);
     border-bottom: 0;
     border-radius: 50px;
     width: 60%;
@@ -95,7 +100,7 @@ h3 {
     display: flex;
     justify-content: center;
     height: auto;
-    border: solid 4px rgba(0, 255, 255, 0.493);
+    border: solid 4px var(--colorBorde);
     border-radius: 50px;
     flex-wrap: wrap;
     flex-basis: 50%;
@@ -109,7 +114,7 @@ h3 {
     display: flex;
     justify-content: center;
     height: auto;
-    border: solid 4px rgba(0, 255, 255, 0.493);
+    border: solid 4px var(--colorBorde);
     border-radius: 50px;
     flex-wrap: wrap;
     flex-basis: 50%;
@@ -123,7 +128,7 @@ h3 {
     display: flex;
     justify-content: center;
     height: auto;
-    border: solid 4px rgba(0, 255, 255, 0.493);
+    border: solid 4px var(--colorBorde);
     border-radius: 50px;
     flex-wrap: wrap;
     flex-basis: 50%;
@@ -131,8 +136,6 @@ h3 {
     margin: auto;
     margin-bottom: 50px;
 }
-
-
 
 .icon-container {
     display: flex;
