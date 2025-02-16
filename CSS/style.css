@@ -50,14 +50,14 @@ h3 {
 }
 
 .plang {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     border: solid 2px turquoise;
     background-color: rgba(0, 0, 0, 0.603);
     border-radius: 20px;
     padding: 2px;
     width: 95%;
-    margin-top: 15px;
     margin: auto;
+    margin-top: 5px;
 }
 
 #global {
@@ -93,6 +93,8 @@ h3 {
 
 #learned {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .lang-block-learned {
@@ -104,7 +106,7 @@ h3 {
     border-radius: 50px;
     flex-wrap: wrap;
     flex-basis: 50%;
-    width: 80%;
+    width: 95%;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -117,8 +119,8 @@ h3 {
     border: solid 4px var(--colorBorde);
     border-radius: 50px;
     flex-wrap: wrap;
-    flex-basis: 50%;
-    width: 80%;
+    flex-basis: 50px;
+    width: 95%;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -154,13 +156,13 @@ h3 {
 
 .licon {
     padding: 5px;
-    height: 6.5vw;
+    height: 4vw;
     text-align: center;
 }
 
 .ticon {
     padding: 5px;
-    height: 4vw;
+    height: 3vw;
     text-align: center;
 }
 
